@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/recyclerCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/recycler_list_size"
+    android:layout_margin="@dimen/space_sm"
+    cardView:cardCornerRadius="@dimen/recycler_card_corner_radius"
+    cardView:cardElevation="@dimen/recycler_card_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgAvatar"
+            android:layout_width="@dimen/recycler_list_size"
+            android:layout_height="@dimen/recycler_list_size"
+            android:scaleType="centerCrop"
+            tools:background="@tools:sample/backgrounds/scenic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recycler_list_size"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/space_sm"
+            android:paddingRight="@dimen/space_sm"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                tools:text="@tools:sample/full_names"
+                android:textSize="@dimen/font_size_lg"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+            <TextView
+                android:id="@+id/txtTeam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/darkGrey"
+                tools:text="@tools:sample/full_names"
+                android:textSize="@dimen/font_size_sm"
+                android:ellipsize="end"
+                android:maxLines="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

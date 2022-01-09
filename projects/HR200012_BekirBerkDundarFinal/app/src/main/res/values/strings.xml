@@ -1,0 +1,30 @@
+<resources>
+    <!-- Uygulama Adı -->
+    <string name="app_name">Futbolcular</string>
+
+    <!-- Sayfa başlıkları -->
+    <string name="list_screen_title">Futbolcular</string>
+    <string name="detail_screen_title">Futbolcu Detayı</string>
+
+    <!-- İnternet kontrol -->
+    <string name="internet_connection_error_title">İnternet Bağlantınız Yok</string>
+    <string name="internet_connection_error_description">Uygulamayı kullanmak için internete bağlayın.</string>
+    <string name="close">Kapat</string>
+    <string name="open_internet">İnterneti Aç</string>
+
+    <!-- Listeleme ekranı bilgisi -->
+    <string name="app_information">Uygulama hakkındaki bilgiler burada olacaktır. Uygulama hakkındaki bilgiler burada olacaktır. Uygulama hakkındaki bilgiler burada olacaktır. Uygulama hakkındaki bilgiler burada olacaktır. Uygulama hakkındaki bilgiler burada olacaktır. Uygulama hakkındaki bilgiler burada olacaktır.</string>
+
+    <!-- Hata mesajları -->
+    <string name="list_screen_data_error_text">Veriler alınırken hata oluştu!</string>
+    <string name="detail_screen_data_error_text">Veri alınamadı, lütfen tekrar deneyin!</string>
+
+    <!-- Geri butonu kontrol çıkış mesajı -->
+    <string name="warning">Uyarı</string>
+    <string name="are_you_sure_you_want_to_exit">Çıkmak istediğinize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    <!-- Api base url -->
+    <string name="api_url">https://raw.githubusercontent.com/erbasaran/DersOrnegi.Java.Mobil/main/</string>
+</resources>

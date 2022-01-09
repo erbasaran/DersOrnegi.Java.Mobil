@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splash_logo_width">100dp</dimen>
+    <dimen name="splash_logo_height">100dp</dimen>
+
+    <dimen name="space_xs">8dp</dimen>
+    <dimen name="space_sm">10dp</dimen>
+    <dimen name="space_md">20dp</dimen>
+    <dimen name="space_lg">30dp</dimen>
+    <dimen name="space_xl">40dp</dimen>
+
+    <dimen name="font_size_xs">12dp</dimen>
+    <dimen name="font_size_sm">14sp</dimen>
+    <dimen name="font_size_md">16sp</dimen>
+    <dimen name="font_size_lg">18sp</dimen>
+    <dimen name="font_size_xl">20sp</dimen>
+
+    <dimen name="recycler_list_size">60dp</dimen>
+    <dimen name="recycler_card_corner_radius">8dp</dimen>
+    <dimen name="recycler_card_elevation">4dp</dimen>
+
+    <dimen name="detail_cover_image_height">200dp</dimen>
+</resources>
