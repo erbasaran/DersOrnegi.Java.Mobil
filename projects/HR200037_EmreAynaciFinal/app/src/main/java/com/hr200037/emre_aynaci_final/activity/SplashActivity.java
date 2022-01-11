@@ -20,6 +20,10 @@ public class SplashActivity extends AppCompatActivity {
 
         //oncreate: yaşam döngüsüne göre ilk başta sadece bir kere çalışır.
 
+        initialize();
+    }
+    
+    private void initialize(){
         //actionbar gizle
         getSupportActionBar().hide();
 
