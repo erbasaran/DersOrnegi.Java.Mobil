@@ -22,13 +22,17 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        initialize();
+
+        setData();
+    }
+    
+    private void initialize(){
         //actionbar title değiştiriliyor
         getSupportActionBar().setTitle(getString(R.string.detail_screen_title));
 
         //actionbar sol taraftaki geri butonu aktifleştiriliyor.
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        setData();
     }
 
     private void setData(){
