@@ -17,18 +17,29 @@ import com.google.gson.reflect.TypeToken;
 
 public class DetailActivity extends AppCompatActivity {
 
+    TextView txtTitle, txtDescription;
+    ImageView imgCover;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
+        initialize();
+
+        setData();
+    }
+    
+    private void initialize(){
         //actionbar title değiştiriliyor
         getSupportActionBar().setTitle(getString(R.string.detail_screen_title));
 
         //actionbar sol taraftaki geri butonu aktifleştiriliyor.
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        setData();
+        txtTitle = findViewById(R.id.txtName);
+        txtDescription = findViewById(R.id.txtDescription);
+        imgCover = findViewById(R.id.imgCover);
     }
 
     private void setData(){
@@ -43,10 +54,6 @@ public class DetailActivity extends AppCompatActivity {
         }else{
             //gelen string veri objeye dönüştürülüyor.
             Footballer data = (new Gson()).fromJson(dataStr, new TypeToken<Footballer>() {}.getType());
-
-            TextView txtTitle = findViewById(R.id.txtName);
-            TextView txtDescription = findViewById(R.id.txtDescription);
-            ImageView imgCover = findViewById(R.id.imgCover);
 
             txtTitle.setText(data.name);
             txtDescription.setText(Html.fromHtml(data.description));
