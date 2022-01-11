@@ -36,6 +36,12 @@ public class ListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list);
 
+        initialize();
+
+        getFootballerData();
+    }
+    
+    private void initialize(){
         getSupportActionBar().setTitle(getString(R.string.list_screen_title));
 
         footballerList = new ArrayList<>();
@@ -58,8 +64,6 @@ public class ListActivity extends AppCompatActivity {
 
         //adaptör recycler viewe bağlanıyor
         recyclerView.setAdapter(recyclerViewAdapter);
-
-        getFootballerData();
     }
 
     private void getFootballerData() {
