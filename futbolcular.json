@@ -1,0 +1,30 @@
+[
+  {
+    "Name": "Lionel Messi",
+    "Team": "Paris Saint-Germain",
+    "Avatar": "https://i4.hurimg.com/i/hurriyet/75/750x422/604902270f25443f304551c2.jpg",
+    "Description": "Lionel Messi açıklaması buarada",
+    "Cover": "https://i4.hurimg.com/i/hurriyet/75/750x422/604902270f25443f304551c2.jpg"
+  },
+  {
+    "Name": "Pele",
+    "Team": "New York Cosmos",
+    "Avatar": "https://pbs.twimg.com/profile_images/948737704765861888/-87_LFDp_400x400.jpg",
+    "Description": "Pele açıklama",
+    "Cover": "https://pbs.twimg.com/profile_images/948737704765861888/-87_LFDp_400x400.jpg"
+  },
+  {
+    "Name": "Cristiano Ronaldo",
+    "Team": "Manchester United",
+    "Avatar": "https://cdn.sporx.com/img/59/2021/image23-1630500411.jpg",
+    "Description": "Cristiano Ronaldo açıklaması",
+    "Cover": "https://cdn.sporx.com/img/59/2021/image23-1630500411.jpg"
+  },
+  {
+    "Name": "Maradona",
+    "Team": "FC Barcelona",
+    "Avatar": "https://ichef.bbci.co.uk/news/640/cpsprodpb/18479/production/_115694499_maradonagetty.jpg",
+    "Description": "Maradona açıklama <b>burada</b> olacaktır.",
+    "Cover": "https://ichef.bbci.co.uk/news/640/cpsprodpb/18479/production/_115694499_maradonagetty.jpg"
+  }
+]
